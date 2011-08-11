@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53D5F9EA13EBEEC70068F60C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D5F9E913EBEEC70068F60C /* UIKit.framework */; };
+		53D5F9EC13EBEEC70068F60C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D5F9EB13EBEEC70068F60C /* Foundation.framework */; };
+		53D5F9EE13EBEEC70068F60C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D5F9ED13EBEEC70068F60C /* CoreGraphics.framework */; };
+		53D5F9F413EBEEC70068F60C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53D5F9F213EBEEC70068F60C /* InfoPlist.strings */; };
+		53D5F9F713EBEEC70068F60C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5F9F613EBEEC70068F60C /* main.m */; };
+		53D5F9FA13EBEEC70068F60C /* BookMagazineViewerTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5F9F913EBEEC70068F60C /* BookMagazineViewerTestAppDelegate.m */; };
+		53D5F9FD13EBEEC70068F60C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D5F9FB13EBEEC70068F60C /* MainWindow.xib */; };
+		53D5FA0013EBEEC70068F60C /* BookMagazineViewerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5F9FF13EBEEC70068F60C /* BookMagazineViewerTestViewController.m */; };
+		53D5FA0313EBEEC70068F60C /* BookMagazineViewerTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D5FA0113EBEEC70068F60C /* BookMagazineViewerTestViewController.xib */; };
+		53ECBAC813F10CD50036694D /* BookData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53ECBAC713F10CD50036694D /* BookData.plist */; };
+		53ECBAD013F10D550036694D /* image in Resources */ = {isa = PBXBuildFile; fileRef = 53ECBACF13F10D550036694D /* image */; };
+		53ECBAD313F10DF00036694D /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ECBAD213F10DF00036694D /* BookCell.m */; };
+		53ECBAD613F10E850036694D /* BookCellScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ECBAD513F10E850036694D /* BookCellScroll.m */; };
+		53ECBB4713F12E080036694D /* CellElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ECBB4613F12E080036694D /* CellElement.m */; };
+		53ECBB4A13F12E250036694D /* CellElementText.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ECBB4913F12E240036694D /* CellElementText.m */; };
+		53ECBB4D13F12E440036694D /* CellElementImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ECBB4C13F12E440036694D /* CellElementImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53D5F9E513EBEEC70068F60C /* BookMagazineViewerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMagazineViewerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D5F9E913EBEEC70068F60C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53D5F9EB13EBEEC70068F60C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53D5F9ED13EBEEC70068F60C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53D5F9F113EBEEC70068F60C /* BookMagazineViewerTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookMagazineViewerTest-Info.plist"; sourceTree = "<group>"; };
+		53D5F9F313EBEEC70068F60C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53D5F9F513EBEEC70068F60C /* BookMagazineViewerTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookMagazineViewerTest-Prefix.pch"; sourceTree = "<group>"; };
+		53D5F9F613EBEEC70068F60C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53D5F9F813EBEEC70068F60C /* BookMagazineViewerTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookMagazineViewerTestAppDelegate.h; sourceTree = "<group>"; };
+		53D5F9F913EBEEC70068F60C /* BookMagazineViewerTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookMagazineViewerTestAppDelegate.m; sourceTree = "<group>"; };
+		53D5F9FC13EBEEC70068F60C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		53D5F9FE13EBEEC70068F60C /* BookMagazineViewerTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookMagazineViewerTestViewController.h; sourceTree = "<group>"; };
+		53D5F9FF13EBEEC70068F60C /* BookMagazineViewerTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookMagazineViewerTestViewController.m; sourceTree = "<group>"; };
+		53D5FA0213EBEEC70068F60C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BookMagazineViewerTestViewController.xib; sourceTree = "<group>"; };
+		53ECBAC713F10CD50036694D /* BookData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BookData.plist; sourceTree = "<group>"; };
+		53ECBACF13F10D550036694D /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = image; sourceTree = "<group>"; };
+		53ECBAD113F10DF00036694D /* BookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
+		53ECBAD213F10DF00036694D /* BookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
+		53ECBAD413F10E850036694D /* BookCellScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCellScroll.h; sourceTree = "<group>"; };
+		53ECBAD513F10E850036694D /* BookCellScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCellScroll.m; sourceTree = "<group>"; };
+		53ECBB4513F12E080036694D /* CellElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellElement.h; sourceTree = "<group>"; };
+		53ECBB4613F12E080036694D /* CellElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellElement.m; sourceTree = "<group>"; };
+		53ECBB4813F12E240036694D /* CellElementText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellElementText.h; sourceTree = "<group>"; };
+		53ECBB4913F12E240036694D /* CellElementText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellElementText.m; sourceTree = "<group>"; };
+		53ECBB4B13F12E440036694D /* CellElementImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellElementImage.h; sourceTree = "<group>"; };
+		53ECBB4C13F12E440036694D /* CellElementImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellElementImage.m; sourceTree = "<group>"; };
+		53F7694513F16A8A003B410A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53D5F9E213EBEEC70068F60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D5F9EE13EBEEC70068F60C /* CoreGraphics.framework in Frameworks */,
+				53D5F9EA13EBEEC70068F60C /* UIKit.framework in Frameworks */,
+				53D5F9EC13EBEEC70068F60C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53D5F9DA13EBEEC70068F60C = {
+			isa = PBXGroup;
+			children = (
+				53F7694513F16A8A003B410A /* CoreGraphics.framework */,
+				53D5F9EF13EBEEC70068F60C /* BookMagazineViewerTest */,
+				53D5F9E813EBEEC70068F60C /* Frameworks */,
+				53D5F9E613EBEEC70068F60C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53D5F9E613EBEEC70068F60C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53D5F9E513EBEEC70068F60C /* BookMagazineViewerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53D5F9E813EBEEC70068F60C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53D5F9E913EBEEC70068F60C /* UIKit.framework */,
+				53D5F9EB13EBEEC70068F60C /* Foundation.framework */,
+				53D5F9ED13EBEEC70068F60C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53D5F9EF13EBEEC70068F60C /* BookMagazineViewerTest */ = {
+			isa = PBXGroup;
+			children = (
+				53ECBAC613F10CAF0036694D /* Resources */,
+				53ECBAC413F10C340036694D /* Classes */,
+				53D5F9F813EBEEC70068F60C /* BookMagazineViewerTestAppDelegate.h */,
+				53D5F9F913EBEEC70068F60C /* BookMagazineViewerTestAppDelegate.m */,
+				53D5F9FB13EBEEC70068F60C /* MainWindow.xib */,
+				53D5F9FE13EBEEC70068F60C /* BookMagazineViewerTestViewController.h */,
+				53D5F9FF13EBEEC70068F60C /* BookMagazineViewerTestViewController.m */,
+				53D5FA0113EBEEC70068F60C /* BookMagazineViewerTestViewController.xib */,
+				53D5F9F013EBEEC70068F60C /* Supporting Files */,
+			);
+			path = BookMagazineViewerTest;
+			sourceTree = "<group>";
+		};
+		53D5F9F013EBEEC70068F60C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53D5F9F113EBEEC70068F60C /* BookMagazineViewerTest-Info.plist */,
+				53D5F9F213EBEEC70068F60C /* InfoPlist.strings */,
+				53D5F9F513EBEEC70068F60C /* BookMagazineViewerTest-Prefix.pch */,
+				53D5F9F613EBEEC70068F60C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53ECBAC413F10C340036694D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				53ECBAD113F10DF00036694D /* BookCell.h */,
+				53ECBAD213F10DF00036694D /* BookCell.m */,
+				53ECBAD413F10E850036694D /* BookCellScroll.h */,
+				53ECBAD513F10E850036694D /* BookCellScroll.m */,
+				53ECBB4513F12E080036694D /* CellElement.h */,
+				53ECBB4613F12E080036694D /* CellElement.m */,
+				53ECBB4813F12E240036694D /* CellElementText.h */,
+				53ECBB4913F12E240036694D /* CellElementText.m */,
+				53ECBB4B13F12E440036694D /* CellElementImage.h */,
+				53ECBB4C13F12E440036694D /* CellElementImage.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		53ECBAC613F10CAF0036694D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53ECBACF13F10D550036694D /* image */,
+				53ECBAC713F10CD50036694D /* BookData.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53D5F9E413EBEEC70068F60C /* BookMagazineViewerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D5FA0613EBEEC70068F60C /* Build configuration list for PBXNativeTarget "BookMagazineViewerTest" */;
+			buildPhases = (
+				53D5F9E113EBEEC70068F60C /* Sources */,
+				53D5F9E213EBEEC70068F60C /* Frameworks */,
+				53D5F9E313EBEEC70068F60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookMagazineViewerTest;
+			productName = BookMagazineViewerTest;
+			productReference = 53D5F9E513EBEEC70068F60C /* BookMagazineViewerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53D5F9DC13EBEEC70068F60C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 53D5F9DF13EBEEC70068F60C /* Build configuration list for PBXProject "BookMagazineViewerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53D5F9DA13EBEEC70068F60C;
+			productRefGroup = 53D5F9E613EBEEC70068F60C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53D5F9E413EBEEC70068F60C /* BookMagazineViewerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53D5F9E313EBEEC70068F60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D5F9F413EBEEC70068F60C /* InfoPlist.strings in Resources */,
+				53D5F9FD13EBEEC70068F60C /* MainWindow.xib in Resources */,
+				53D5FA0313EBEEC70068F60C /* BookMagazineViewerTestViewController.xib in Resources */,
+				53ECBAC813F10CD50036694D /* BookData.plist in Resources */,
+				53ECBAD013F10D550036694D /* image in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53D5F9E113EBEEC70068F60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D5F9F713EBEEC70068F60C /* main.m in Sources */,
+				53D5F9FA13EBEEC70068F60C /* BookMagazineViewerTestAppDelegate.m in Sources */,
+				53D5FA0013EBEEC70068F60C /* BookMagazineViewerTestViewController.m in Sources */,
+				53ECBAD313F10DF00036694D /* BookCell.m in Sources */,
+				53ECBAD613F10E850036694D /* BookCellScroll.m in Sources */,
+				53ECBB4713F12E080036694D /* CellElement.m in Sources */,
+				53ECBB4A13F12E250036694D /* CellElementText.m in Sources */,
+				53ECBB4D13F12E440036694D /* CellElementImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53D5F9F213EBEEC70068F60C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D5F9F313EBEEC70068F60C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53D5F9FB13EBEEC70068F60C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D5F9FC13EBEEC70068F60C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		53D5FA0113EBEEC70068F60C /* BookMagazineViewerTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D5FA0213EBEEC70068F60C /* en */,
+			);
+			name = BookMagazineViewerTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53D5FA0413EBEEC70068F60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		53D5FA0513EBEEC70068F60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		53D5FA0713EBEEC70068F60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookMagazineViewerTest/BookMagazineViewerTest-Prefix.pch";
+				INFOPLIST_FILE = "BookMagazineViewerTest/BookMagazineViewerTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53D5FA0813EBEEC70068F60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookMagazineViewerTest/BookMagazineViewerTest-Prefix.pch";
+				INFOPLIST_FILE = "BookMagazineViewerTest/BookMagazineViewerTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53D5F9DF13EBEEC70068F60C /* Build configuration list for PBXProject "BookMagazineViewerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D5FA0413EBEEC70068F60C /* Debug */,
+				53D5FA0513EBEEC70068F60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D5FA0613EBEEC70068F60C /* Build configuration list for PBXNativeTarget "BookMagazineViewerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D5FA0713EBEEC70068F60C /* Debug */,
+				53D5FA0813EBEEC70068F60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53D5F9DC13EBEEC70068F60C /* Project object */;
+}
